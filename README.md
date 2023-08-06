@@ -5,7 +5,7 @@ Welcome to the Multi_Bridge_Superhack repository, specially developed for Ethglo
 Project Structure
 The repository is organized into two main folders:
 
-1. MultiBridge_fe (Front-End)
+1. multi_bridge_fe (Front-End)
 The MultiBridge_fe folder contains the code for the front-end part of the application.
 
 2. MultiBridge_sk (Smart Contracts)
