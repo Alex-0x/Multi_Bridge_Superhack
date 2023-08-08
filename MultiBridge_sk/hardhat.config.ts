@@ -26,9 +26,10 @@ networks: {
      accounts: [process.env.PRIVATE_KEY ?? ""],
      chainId: 11155111,
    },
-    optimism : {
+    optimism: {
       url: process.env.URL_ALCHEMY_OPTIMISM ?? "",
-      accounts: [process.env.PRIVATE_KEY ?? ""]
+      accounts: [process.env.PRIVATE_KEY ?? ""],
+      gasPrice: 35000000000,
     }
 },
   etherscan: {
