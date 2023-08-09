@@ -4,7 +4,7 @@ async function main() {
   
 
   if(network.name !== `sepolia`) {              
-    console.error(`❌ Must be called from Avalanche Fuji`);
+    console.error(`❌ Must be called from Sepolia`);
     return 1;
   }
   const SepoliaRouterAddress = `0xD0daae2231E9CB96b94C8512223533293C3693Bf`;
