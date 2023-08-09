@@ -4,7 +4,7 @@ async function main() {
   
 
   if(network.name !== `polygon_mumbai`) {              
-    console.error(`❌ Must be called from Avalanche Fuji`);
+    console.error(`❌ Must be called from polygon mumbai`);
     return 1;
   }
 
