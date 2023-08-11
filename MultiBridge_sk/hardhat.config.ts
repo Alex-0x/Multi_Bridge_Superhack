@@ -29,12 +29,12 @@ networks: {
     optimism: {
       url: process.env.URL_ALCHEMY_OPTIMISM ?? "",
       accounts: [process.env.PRIVATE_KEY ?? ""],
-      gasPrice: 35000000000,
+      gasPrice: 3000000,
     },
     arbitrum: {
       url: process.env.URL_ALCHEMY_ARBITRUM ?? "",
       accounts: [process.env.PRIVATE_KEY ?? ""],
-      gasPrice: 35000000000,
+      gasPrice: 100000000,
     }
 },
   etherscan: {
